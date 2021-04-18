@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Детективное агенство "След"</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/min.normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body class="page__body">
+    <header class="page-header wow animate__animated animate__fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+      <div class="container header">
+        <div class="mobile-menu">
+          <div class="mobile-menu-close"></div>
+          <div class="mobile-menu-content"></div>
+        </div>
+        <nav class="main-navigation">
+          <a class="page-header__logo">
+            <img src="img/logo.svg" alt="Детективное агенство След">
+            <p class="page-header__logo-text">Частное детективное<br>агентство</p>
+          </a>
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a class="site-list__link" href="#directions">Направления</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#services">Услуги</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#guarantee">Гарантии</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#about-me">О нас</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#steps">Этапы работы</a>
+            </li>
+          </ul>
+          <div class="phone-numbers">
+          <select>
+            <option><a href="tel:+84955329049" class="phone-numbers__item">8(495) 532-90-49</a></option>
+            <option><a href="tel:+89055373447" class="phone-numbers__item">8(905) 537-34-47</a></option>
+            <option><a href="tel:+89060952000" class="phone-numbers__item">8(906) 095-20-00</a></option>
+          </select>
+            <a href="#" class="btn-yellow modal-show">Заказать звонок</a>
+            <p class="phone-numbers__text">Работаем 24/7</p>
+          </div>
+          <div class="burger">
+            <div class="burger__item"></div>
+            <div class="burger__item"></div>
+            <div class="burger__item"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main content">
+      <section class="main-screen">
+        <div class="container main-screen__wrapper">
+          <h1 class="main-screen__title wow animate__animated animate__zoomIn">Услуги детективного<br>агентства <span>в Москве</span></h1>
+          <p class="main-screen__subtitle">Оказываем поддержку в любых сложных <br>жизненных ситуациях</p>
+          <a href="#consultation" class="btn-purple">Получить консультацию</a>
+        </div>
+        <div class="advantages">
+          <div class="container">
+            <ul class="advantages__list">
+              <li class="advantages__list-item">
+                <p class="advantages__list-item-number">100%</p>
+                <p class="advantages__list-item-text wow animate__animated animate__zoomIn">Гарантия<br>конфиденциальности</p>
+              </li>
+              <li class="advantages__list-item">
+                <p class="advantages__list-item-number">870+</p>
+                <p class="advantages__list-item-text wow animate__animated animate__zoomIn">Довольных<br>клиентов</p>
+              </li>
+              <li class="advantages__list-item">
+                <p class="advantages__list-item-number">17+</p>
+                <p class="advantages__list-item-text wow animate__animated animate__zoomIn">Лет<br>опыта</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="directions container" id="directions">
+        <p class="directions__subtitle">Мы имеем достаточно широкую специализацию и готовы оказать поддержку во всех сферах вашей жизни</p>
+        <h2 class="directions__title">Направления <span>нашей работы</span></h2>
+        <ul class="directions__list">
+          <li class="directions__list-item directions__list-item--business">
+            <h3 class="directions__list-item-header wow animate__animated animate__zoomIn">Бизнес</h3>
+            <p class="directions__list-item-description">Информация о клиентской базе конкурента, доступ к переписке и переговорам, движение денежных средств</p>
+          </li>
+          <li class="directions__list-item directions__list-item--love">
+            <h3 class="directions__list-item-header wow animate__animated animate__zoomIn">Любовь</h3>
+            <p class="directions__list-item-description">Контроль супруга или супруги, супружеская неверность, разрушения внебрачных отношений</p>
+          </li>
+          <li class="directions__list-item directions__list-item--research">
+            <h3 class="directions__list-item-header wow animate__animated animate__zoomIn">Розыск</h3>
+            <p class="directions__list-item-description">Розыск без вести пропавших, ушедших из дома людей, должников, мошенников. Поиски наследственного имущества</p>
+          </li>
+          <li class="directions__list-item directions__list-item--spy">
+            <h3 class="directions__list-item-header wow animate__animated animate__zoomIn">наблюдение</h3>
+            <p class="directions__list-item-description">Все возможные варианты наружного наблюдения с предоставлением отчета на территории РФ и за ее пределами</p>
+          </li>
+          <li class="directions__list-item directions__list-item--family">
+            <h3 class="directions__list-item-header wow animate__animated animate__zoomIn">Семья</h3>
+            <p class="directions__list-item-description">Безопасность семьи и детей, организуем наблюдение за ребенком, за супругой/супругом</p>
+          </li>
+        </ul>
+      </section>
+      <section class="guarantee container" id="guarantee">
+        <p class="directions__subtitle">И в рамках федерального закона РФ</p>
+        <h2 class="directions__title">гарантируем работу <span>по договору</span></h2>
+        <!-- Лицензия фото -->
+        <!-- <picture>
+          <source type="image/webp" srcset="img/license.png">
+          <img src="img/license.png" alt="Лицензия" class="guarantee__img" width="300">
+          </picture> -->
+        <ul class="guarantee__list">
+          <li class="guarantee__list-item guarantee__list-item--license">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">Лицензия</h3>
+            <p class="guarantee__list-item-text">Имеем законное право производить оперативно-сыскную деятельность в соответствии с полученной лицензией</p>
+          </li>
+          <li class="guarantee__list-item guarantee__list-item--file">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">Законность деятельности</h3>
+            <p class="guarantee__list-item-text">Результаты нашей работы могут быть использованы в различных государственных инстанциях, в том числе и в судебных</p>
+          </li>
+          <li class="guarantee__list-item guarantee__list-item--incognito">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">Полная анонимность</h3>
+            <p class="guarantee__list-item-text">Имеем законное право производить оперативно-сыскную деятельность в соответствии с полученной лицензией</p>
+          </li>
+          <li class="guarantee__list-item guarantee__list-item--lock">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">Конфиденциальность</h3>
+            <p class="guarantee__list-item-text">Все полученные в ходе расследования данные уничтожаются по завершению проекта</p>
+          </li>
+          <li class="guarantee__list-item guarantee__list-item--clock">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">Оперативность</h3>
+            <p class="guarantee__list-item-text">Не тревожим заказчика во время работы и все выполняем в строго оговоренное время</p>
+          </li>
+          <li class="guarantee__list-item guarantee__list-item--guarantee">
+            <h3 class="guarantee__list-item-header wow animate__animated animate__zoomIn">100% достоверность</h3>
+            <p class="guarantee__list-item-text">Несем юридическую ответственность за достоверность информации</p>
+          </li>
+        </ul>
+      </section>
+      <section class="container wow animate__animated animate__pulse" id="consultation" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="consultation">
+          <p class="directions__subtitle">Оставьте заявку сейчас и получите <span>эффективный план действий</span> абсолютно бесплатно</p>
+          <h2 class="directions__title">бесплатная <span>консультация</span></h2>
+          <div class="consultation__wrapper">
+            <div>
+              <p class="consultation__header">заполните форму</p>
+              <form method="post">
+                <input class="consultation__input" type="text" placeholder="Ваше имя" required><br>
+                <input class="consultation__input" type="text" placeholder="+ 7(_ _ _) _ _ _-_ _-_ _" required id="number"><br><br>
+                <input class="btn-consult" type="submit" value="Получить консультацию">
+              </form>
+            </div>
+            <div>
+              <p class="consultation__header-phone">или Звоните по номеру</p>
+              <p class="consultation__text">Работаем 24/7</p>
+              <div class="phone-numbers-consult">
+                <a href="tel:+84955329049" class="phone-numbers__item">8(495) 532-90-49</a>
+                <a href="tel:+89055373447" class="phone-numbers__item">8(905) 537-34-47</a>
+                <a href="tel:+89060952000" class="phone-numbers__item">8(906) 095-20-00</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services container" id="services">
+        <p class="directions__subtitle">Предоставляем полный комплекс детективных услуг</p>
+        <h2 class="directions__title">наши <span>услуги</span></h2>
+        <ul class="services__list">
+          <li class="services__list-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/service-research-mobile.webp">
+              <source media="(max-width: 991px)" srcset="img/service-research-tablet.webp">
+              <source type="image/webp" srcset="img/service-research.webp">
+              <img src="img/service-research.jpg" alt="Детективное агентство След - Розыск">
+            </picture>
+            <div class="services__list-item-wrapper">
+              <div>
+                <h3 class="services__list-item-header wow animate__animated animate__slideInDown">Розыск</h3>
+                <ul class="item-list">
+                  <li class="item-list__item">Розыск без вести пропавших, ушедших из дома и навернувшихся людей, должников, мошенников;</li>
+                  <li class="item-list__item">Розыск должников, мошенников. Содействие в возврате долгов;</li>
+                  <li class="item-list__item">Поиск наследственного имущества, выявление движимого и недвижимого имущества;</li>
+                  <li class="item-list__item">Поиск доказательств по гражданским и уголовным делам.</li>
+                </ul>
+              </div>
+              <a href="#consultation" class="services__list-item-link">Получить консультацию</a>
+            </div>
+          </li>
+          <li class="services__list-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/service-spy-mobile.webp">
+              <source media="(max-width: 991px)" srcset="img/service-spy-tablet.webp">
+              <source type="image/webp" srcset="img/service-spy.webp">
+              <img src="img/service-spy.jpg" alt="Детективное агентство След - Наблюдение">
+            </picture>
+            <div class="services__list-item-wrapper">
+              <div>
+                <h3 class="services__list-item-header wow animate__animated animate__slideInDown">Наблюдение</h3>
+                <ul class="item-list">
+                  <li class="item-list__item">Наблюдение за человеком;</li>
+                  <li class="item-list__item">Видео наблюдение;</li>
+                  <li class="item-list__item">Наблюдение за автотранспортом;</li>
+                  <li class="item-list__item">Наблюдение за сотрудниками, проверка качества выполнения работ домашним персоналом (няни, гувернантки, домработницы).</li>
+                </ul>
+              </div>
+              <a href="#consultation" class="services__list-item-link">Получить консультацию</a>
+            </div>
+          </li>
+          <li class="services__list-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/service-love-mobile.webp">
+              <source media="(max-width: 991px)" srcset="img/service-love-tablet.webp">
+              <source type="image/webp" srcset="img/service-love.webp">
+              <img src="img/service-love.jpg" alt="Детективное агентство След - Проверка партнера">
+            </picture>
+            <div class="services__list-item-wrapper">
+              <div>
+                <h3 class="services__list-item-header wow animate__animated animate__slideInDown">Проверка партнера</h3>
+                <ul class="item-list">
+                  <li class="item-list__item">Выявление супружеской неверности, возможно с предоставлением фото и видео отчетов;</li>
+                  <li class="item-list__item">Проверка партнера, выявление биографических и других данных, характеризующих личность, семейного положения;</li>
+                  <li class="item-list__item">Проверка данных, заявленных о себе лицами, зарегистрированными в службах знакомств и брачных агентствах.</li>
+                </ul>
+              </div>
+              <a href="#consultation" class="services__list-item-link">Получить консультацию</a>
+            </div>
+          </li>
+          <li class="services__list-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/service-information-mobile.webp">
+              <source media="(max-width: 991px)" srcset="img/service-information-tablet.webp">
+              <source type="image/webp" srcset="img/service-information.webp">
+              <img src="img/service-information.jpg" alt="Детективное агентство След - Сбор информации">
+            </picture>
+            <div class="services__list-item-wrapper">
+              <div>
+                <h3 class="services__list-item-header wow animate__animated animate__slideInDown">Сбор информации</h3>
+                <ul class="item-list">
+                  <li class="item-list__item">Поиск адреса, телефона, места жительства прописки граждан по РФ и за рубежом;</li>
+                  <li class="item-list__item">Поиск по базам данных;</li>
+                  <li class="item-list__item">Сбор сведений о кредитной истории объекта, досье на человека;</li>
+                  <li class="item-list__item">Сбор сведений о месте работы и наличии транспортных средств.</li>
+                </ul>
+              </div>
+              <a href="#consultation" class="services__list-item-link">Получить консультацию</a>
+            </div>
+          </li>
+          <li class="services__list-item">
+            <picture>
+              <source media="(max-width: 767px)" srcset="img/service-safety-mobile.webp">
+              <source media="(max-width: 991px)" srcset="img/service-safety-tablet.webp">
+              <source type="image/webp" srcset="img/service-safety.webp">
+              <img src="img/service-safety.jpg" alt="Детективное агентство След - Безопасность">
+            </picture>
+            <div class="services__list-item-wrapper">
+              <div>
+                <h3 class="services__list-item-header wow animate__animated animate__slideInDown">Безопасность</h3>
+                <ul class="item-list">
+                  <li class="item-list__item">Безопасность детей и семьи;</li>
+                  <li class="item-list__item">Защита при шантаже, угрозах  и вымогательстве;</li>
+                  <li class="item-list__item">Досудебное урегулирование конфликтов;</li>
+                  <li class="item-list__item">Физическая и юридическая поддержка при угрозе жизни;</li>
+                  <li class="item-list__item">Проверка контрагентов , партнеров и сотрудников.</li>
+                </ul>
+              </div>
+              <a href="#consultation" class="services__list-item-link">Получить консультацию</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="container wow animate__animated animate__pulse" id="about-me" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="about-me">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/main-detective-lg.webp">
+            <source media="(min-width: 1100px)" srcset="img/main-detective-xl.webp">
+            <source media="(min-width: 992px)" srcset="img/main-detective-big.webp">
+            <source media="(max-width: 991px)" srcset="img/main-detective-tablet.webp">
+            <source type="image/webp" srcset="img/main-detective.webp">
+            <img src="img/main-detective.jpg" alt="Кочетков Евгений Александрович">
+          </picture>
+          <div class="about-me__wrapper">
+            <div>
+              <h2 class="about-me__title">Кочетков Евгений Александрович</h2>
+              <p class="about-me__text">Окончил Московский Юридический Институт. С 2001 г по 2011 проходил службу в Органах внутренних дел. Имеет большой опыт  оперативной работы. Неоднократно получал благодарность, от руководства ГУВД по г.Москвы,  за успешные показатели в оперативно- розыскных мероприятиях. 2011 г.</p>
+              <p class="about-me__text">Окончил карьеру в правоохранительных органах и  назначен на должность руководителя управления рисков и досудебного урегулирования, в крупной инвестиционной компании. В 2016 году основал частное детективное агентство, где и по сегодняшний день, с командой профессиональных детективов , успешно помогает людям разрешить сложные ситуации.</p>
+            </div>
+            <a href="#secondconsultation" class="btn-about-me">Получить консультацию</a>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="steps">
+        <div class="steps">
+          <p class="directions__subtitle">Сервис высокого качества и чёткие сроки - наши приоритеты</p>
+          <h2 class="directions__title">Этапы <span>работы</span></h2>
+          <ul class="steps__list">
+            <li class="steps__list-item steps__list-item--first">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">Заявка</h3>
+              <p class="steps__list-item-text">Оставляете заявку на сайте или по номеру телефона</p>
+            </li>
+            <li class="steps__list-item steps__list-item--second">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">консультация</h3>
+              <p class="steps__list-item-text">Разберемся в вашей ситуации в любое удобное для вас время</p>
+            </li>
+            <li class="steps__list-item steps__list-item--third">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">План работы</h3>
+              <p class="steps__list-item-text">Рассказываем о путях решения задачи, вы выбираете подходящий</p>
+            </li>
+            <li class="steps__list-item steps__list-item--fourth">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">Договор</h3>
+              <p class="steps__list-item-text">Подписываем договор на оказание услуг, а также NDA - соглашение о неразглашении</p>
+            </li>
+            <li class="steps__list-item steps__list-item--fifth">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">Расследование</h3>
+              <p class="steps__list-item-text">Ведем расследование, держим Вас в курсе промежуточных результатов</p>
+            </li>
+            <li class="steps__list-item steps__list-item--sixth">
+              <h3 class="steps__list-item-header wow animate__animated animate__zoomIn">Отчет</h3>
+              <p class="steps__list-item-text">Предоставляем полный отчет. Уничтожаем оригиналы и копии всей полученной информации</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="container testemonials">
+        <p class="directions__subtitle">Реальные истории из жизни</p>
+        <h2 class="directions__title">Отзывы <span>наших клиентов</span></h2>
+        <div class="slider">
+          <div class="slider__item second-slide">
+            <div class="slider__item-wrapper">
+              <div>
+                <h2 class="slider__item-title wow animate__animated animate__zoomIn">Разоблачил ненадежного <span>партнера</span></h2>
+                <p class="slider__item-subtitle">Партнер по бизнесу повел себя непорядочно. Без согласования со мной, поставив поддельную печать, ввел в состав ООО своего человека.</p>
+                <p class="slider__item-subtitle">Я понимал, что доказывать через суд неправомерность действий будут годами.</p>
+                <p class="slider__item-subtitle">Заказал в агентстве "След" технико-криминалистическую экспертизу, ускорил весь процесс. Через полгода не только убрал его напарника, но и распрощался с ненадежным партнером.</p>
+              </div>
+              <p class="slider__item-name">Антон Сергеев<br><span>52 года, <br>бизнесмен</span></p>
+            </div>
+          </div>
+          <div class="slider__item third-slide">
+            <div class="slider__item-wrapper">
+              <div>
+                <h2 class="slider__item-title wow animate__animated animate__zoomIn">Раскрыла обман <span>мужа</span></h2>
+                <p class="slider__item-subtitle">Последние полгода муж очень часто стал ездить в командировки. Звонить он стал реже, хороших слов от него не дождёшься. Решила обратиться в детективное агентство "След".</p>
+                <p class="slider__item-subtitle">Благодаря вам я узнала, что мой муж не уезжает в командировки, а проводит время с друзьями, веселится в клубах с молоденькими девушками и играет в казино.</p>
+                <p class="slider__item-subtitle">В итоге приняла решение о разводе и теперь чувствую себя гораздо счастливее.</p>
+              </div>
+              <p class="slider__item-name">Ирина Мельникова<br><span>33 года, <br>стилист</span></p>
+            </div>
+          </div>
+          <div class="slider__item fourth-slide">
+            <div class="slider__item-wrapper">
+              <div>
+                <h2 class="slider__item-title wow animate__animated animate__zoomIn">Сын завел <span>любовницу</span></h2>
+                <p class="slider__item-subtitle">Никогда не думала, что обращусь к частному детективу, но вот пришлось, и я ни разу не пожалела.</p>
+                <p class="slider__item-subtitle">Подруга рассказа, что видела моего сына с любовницей (а у него, между прочим, любящая жена и 2 маленькие дочки).</p>
+                <p class="slider__item-subtitle">Попросила детектива выяснить что-то об этой даме. Оказалось, что у нёе куча кредитов, которые она пытается заплатить за счёт ухажёров. Показала всё сыну, обещал не рисковать семьёй.</p>
+              </div>
+              <p class="slider__item-name">Раиса Карпович<br><span>63 года, <br>пенсионерка</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container wow animate__animated animate__pulse" id="secondconsultation" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="consultation">
+          <p class="directions__subtitle">Оставьте заявку сейчас и получите <span>эффективный план действий</span> абсолютно бесплатно</p>
+          <h2 class="directions__title">бесплатная <span>консультация</span></h2>
+          <div class="consultation__wrapper">
+            <div>
+              <p class="consultation__header">заполните форму</p>
+              <form method="post">
+                <input class="consultation__input" type="text" placeholder="Ваше имя" required><br>
+                <input class="consultation__input" type="text" placeholder="+ 7(_ _ _) _ _ _-_ _-_ _" required id="number2"><br><br>
+                <input class="btn-consult" type="submit" value="Получить консультацию">
+              </form>
+            </div>
+            <div>
+              <p class="consultation__header-phone">или Звоните по номеру</p>
+              <p class="consultation__text">Работаем 24/7</p>
+              <div class="phone-numbers-consult">
+                <a href="tel:+84955329049" class="phone-numbers__item">8(495) 532-90-49</a>
+                <a href="tel:+89055373447" class="phone-numbers__item">8(905) 537-34-47</a>
+                <a href="tel:+89060952000" class="phone-numbers__item">8(906) 095-20-00</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="footer">
+          <a class="footer__logo">
+            <img src="img/logo-footer.svg" alt="Детективное агенство След" width="100">
+            <p class="page-header__logo-text">Частное детективное<br>агентство</p>
+          </a>
+          <p class="page-footer__copyright">© Все права защищены 2016-2021</p>
+        </div>
+      </div>
+    </footer>
+    <section class="modal__wrapper hide container">
+      <div class="modal__call-me">
+        <h2 class="modal__call-me-header">Закажите <span>звонок</span></h2>
+        <p class="modal__call-me-subheader">И мы свяжемся с вами в течении 30 минут</p>
+        <form class="modal__call-me-form" method="post">
+          <button type="button" class="btn-close" aria-label="закрыть"></button>
+          <div class="input-wrapper">
+            <input class="consultation__input" type="text" placeholder="+ 7(_ _ _) _ _ _-_ _-_ _" required id="number3"><br><br>
+            <input class="btn-consult" type="submit" value="Жду звонка">
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#number").mask("+7(999)999-99-99");
+        $("#number2").mask("+7(999)999-99-99");
+        $("#number3").mask("+7(999)999-99-99");
+      });
+    </script>
+  </body>
+</html>
